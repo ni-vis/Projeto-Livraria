@@ -1,0 +1,116 @@
+/* DOCUMENTO CSS */
+
+body{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-family: cursive;
+	background-color: #ede9e4;
+	color:#000000;
+}
+header { 
+	background-color: #d7c084; 
+	height: 180px; 
+	padding-top: 20px; 
+	display: flex; 
+	flex-direction: column; 
+	align-items: center; 
+
+}
+header figure { 
+	width: 100px; 
+	height: 200px; 
+	background-color: #d7c084; 
+	margin: 0; 
+	padding: 0;
+}
+main{
+	min-height:500px ;
+	margin:0;
+	padding:0 ;
+	display: flex;
+	justify-content: center ;
+	padding: 20px;
+	flex-wrap: wrap;
+	background-color: #e6d7b3;
+
+}
+
+.boxlivro {width: 450px;
+		height:270px;
+		background-color:#fffdf0;
+		border-radius:15px;
+		padding:10px;
+		margin:10px 10px 10px 50px;
+		display:flex;
+
+}
+.boxlivro:hover{
+	box-shadow: 6px 6px 10px #c1dbca;
+	background-color: ;
+}
+
+.boxlivro h2{margin: 0 0 10px 0;
+	padding: 0;
+}
+
+.boxlivro figure {widht:200px;
+	height:200px;
+	
+	margin:0 20px 0 0 ;
+	padding:0 ;
+	
+}
+
+.boxlivro figure img{
+	border: 1px solid black;
+	border-radius: 5px;
+
+}
+
+.boxlivro p {
+
+}
+
+.boxlivro span {
+	font-size:30px;
+	fonte-weight:100;
+	margin:0 0 0 70px;
+	padding: 0;
+	color: ;
+}
+
+
+footer figure img{
+
+}
+footer {
+	background-color: #A9A9A9 ;
+	height: 10px ;
+	padding-top: 40px;
+	text-aling: center;
+	display: flex;
+	justify-content: left;
+}
+
+
+footer{
+
+	background: #d7c084;
+	height: 150px;
+	padding-top: 30px;
+	color: darkred;
+	text-align: center;
+	flex-direction: left; 
+}
+
+footer p {
+	font-weight: 700;
+	font-family: cursive;
+	margin:10px 0 0 0;
+
+}
+button { height: 25px;
+	width: 240px;
+
+}
